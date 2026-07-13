@@ -1,0 +1,108 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="container">
+  <!-- Hero Section -->
+  <header class="hero-section row mt-5 align-items-center">
+    <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+      <div class="hero-badge">
+        <i class="fa-regular fa-compass me-2"></i>Welcome to HomeHarbor
+      </div>
+      <h1 class="hero-title">
+        Find Your Next<br>Safe Harbor
+      </h1>
+      <p class="hero-subtitle">
+        Explore handpicked beachfront cottages, modern downtown lofts, and peaceful mountain retreats. Discover unique stays verified by our trusted community.
+      </p>
+      <div class="d-flex flex-wrap gap-3">
+        <a href="/listings" class="btn btn-dark btn-lg px-4 py-3">
+          Explore Stays <i class="fa-solid fa-arrow-trend-up ms-2"></i>
+        </a>
+        <a href="/listings/new" class="btn btn-outline-dark btn-lg px-4 py-3">
+          Become a Host
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-lg-5 offset-lg-1 col-md-12 d-flex justify-content-center">
+      <div class="hero-card">
+        <div class="position-relative overflow-hidden rounded-4 mb-3" style="height: 250px;">
+          <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+               class="w-100 h-100 object-fit-cover rounded-4" 
+               alt="Featured Oceanic Stay">
+          <span class="position-absolute top-3 start-3 badge bg-danger px-3 py-2 rounded-pill font-monospace" style="font-weight:600; top: 15px; left: 15px;">
+            <i class="fa-solid fa-star me-1 text-warning"></i> FEATURED
+          </span>
+        </div>
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <h5 class="mb-1" style="font-weight: 700;">Cozy Beachfront Cottage</h5>
+            <p class="text-secondary mb-0"><i class="fa-solid fa-location-dot me-1"></i> Malibu, California</p>
+          </div>
+          <div class="text-end">
+            <span class="d-block" style="font-weight: 700;">&#8377;1,500</span>
+            <small class="text-secondary">per night</small>
+          </div>
+        </div>
+        <hr class="my-3 rgba-white-border" style="border-color: var(--glass-border);">
+        <a href="/listings/6a512f75ad1059ba1bc04a5a" class="btn btn-outline-dark w-100 py-2 btn-sm">
+          View Details
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Highlights Section -->
+  <section class="mt-5 pt-5 text-center">
+    <h2 class="section-title">Why book with HomeHarbor?</h2>
+    <p class="section-subtitle">Vetted stays, secure interactions, and unforgettable experiences.</p>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card feature-card text-start">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-house-chimney"></i>
+          </div>
+          <h4 class="mb-2" style="font-weight: 700;">Premium Selection</h4>
+          <p class="text-secondary mb-0">
+            Every listing in our library is carefully vetted for high-quality visuals, spacious amenities, and true-to-life descriptions.
+          </p>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card feature-card text-start">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+          <h4 class="mb-2" style="font-weight: 700;">Verified Security</h4>
+          <p class="text-secondary mb-0">
+            Connect directly with responsive owners. We verify host profiles and review history to guarantee a seamless check-in.
+          </p>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card feature-card text-start">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+          </div>
+          <h4 class="mb-2" style="font-weight: 700;">Smart Autocomplete</h4>
+          <p class="text-secondary mb-0">
+            Type search queries in the header and receive dynamic, real-time autocomplete suggestions with direct image thumbnails.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section -->
+  <section class="cta-banner">
+    <h2 class="mb-3" style="font-weight: 800;">Own a Unique Space?</h2>
+    <p class="text-secondary mx-auto mb-4" style="max-width: 600px;">
+      Earn extra income by sharing your home, cabin, or loft with travelers from all over the world. Start hosting today with verified booking options.
+    </p>
+    <a href="/listings/new" class="btn btn-dark btn-lg px-5 py-3">
+      Become a Host <i class="fa-solid fa-plus ms-2"></i>
+    </a>
+  </section>
+</div>
